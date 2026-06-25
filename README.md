@@ -186,12 +186,22 @@ pip install -r requirements.txt
 
 ### 4. Configure Environment Variables
 
-Create a `.env` file:
+Create a `.env` file in the project root using the provided `.env.example` template:
 
 ```env
 HUGGINGFACEHUB_API_TOKEN=YOUR_HUGGINGFACE_TOKEN
+ALPHA_VANTAGE_API_KEY=YOUR_ALPHA_VANTAGE_API_KEY
+WEATHER_API_KEY=YOUR_WEATHER_API_KEY
+EXCHANGE_RATE_API_KEY=YOUR_EXCHANGE_RATE_API_KEY
 ```
 
+Alternatively, copy the example file:
+
+```bash
+cp .env.example .env
+```
+
+Then replace the placeholder values with your own API keys.
 ---
 
 ## ▶️ Run Application
